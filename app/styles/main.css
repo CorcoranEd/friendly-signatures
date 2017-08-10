@@ -1,0 +1,13 @@
+/*
+Define styles that can be applied outside of Polymer's custom CSS properties
+implementation. Some of the use-cases include defining styles that you want to
+be applied for a splash screen, styles for your application 'shell' before it
+gets upgraded using Polymer or critical style blocks that you want parsed
+before your elements are.
+*/
+
+body {
+	background: #fafafa;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+}
